@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Animaciones",
+    "slug": "animaciones",
+    "version": "1.0.0",
+    "scheme": "animaciones",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-splash-screen",
+      "expo-status-bar"
+    ]
+  }
+}
